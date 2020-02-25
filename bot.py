@@ -1,6 +1,5 @@
 import discord
-import requests
-from bs4 import BeautifulSoup as BS
+import os
 
 role=1
 client=discord.Client()
