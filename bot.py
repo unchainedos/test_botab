@@ -76,4 +76,5 @@ async def on_message(message):
         await message.channel.send("1.Python \n 2.Java \n 3.C# \n 4.C++ \n 5.C")
     elif message.content=="help":
         await message.channel.send("Tiobe : Рейтинг языков программивания Tiobe \n PYPL : Рейтинг языков программивания PYPL \n Наш рейтинг : Наш рейтинг языков программивания")
-client.run("NjY4ODk4MDY3NDk5NTgxNDcx.Xk7N_Q.O21XPymMp-v4zPPfB4QNvHbBZtA")
+token=os.environ.get("BOT_TOKEN")        
+client.run(token)
